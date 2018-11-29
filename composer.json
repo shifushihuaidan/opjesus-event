@@ -1,0 +1,21 @@
+{
+    "name": "opjesus/event",
+    "description": "PHP事件",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "opjesus",
+            "email": "1072340870@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php" : ">=5.6"
+    },
+    "autoload": {
+      "psr-4": {
+        "Opjesus\\Event\\" : "src/Opjesus/Event"
+      }
+   }
+}
